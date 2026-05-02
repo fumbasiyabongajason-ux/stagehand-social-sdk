@@ -1,0 +1,1 @@
+"""Specialized platform adapters."""
