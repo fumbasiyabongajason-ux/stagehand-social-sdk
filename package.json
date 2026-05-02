@@ -1,0 +1,32 @@
+{
+  "name": "stagehand-social-sdk-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stagehand-powered SDK for posting, commenting, liking, and logging into social platforms — and any website.",
+  "workspaces": [
+    "packages/typescript"
+  ],
+  "scripts": {
+    "build": "npm --workspace packages/typescript run build",
+    "test": "npm --workspace packages/typescript test",
+    "lint": "npm --workspace packages/typescript run lint"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveloud-creatives/stagehand-social-sdk.git"
+  },
+  "keywords": [
+    "stagehand",
+    "browserbase",
+    "social-media",
+    "automation",
+    "instagram",
+    "tiktok",
+    "twitter",
+    "facebook",
+    "youtube",
+    "linkedin",
+    "threads"
+  ]
+}
